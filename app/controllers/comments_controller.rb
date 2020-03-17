@@ -32,7 +32,7 @@ class CommentsController < ApplicationController
 
 	def update
 		@article = Article.find(params[:article_id])
-        @comment = @article.comments.find(params[:id])
+    @comment = Comment.find(params[:id])
       if @comment.update(comment_params)
       	flash[:notice] = "comment was updated"
         redirect_to article_path(@article)
@@ -54,6 +54,6 @@ class CommentsController < ApplicationController
 	private 
 
     def comment_params
-      params.require(:comment).permit(:body, :user_id, :article_id)
+      params.require(:comment).permit(:name, :comment, :user_id, :article_id)
     end
 end
