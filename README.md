@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a blog project with comments using Ruby on Rails. It is a foundational exercise, that I went through to learn more about the framework. Working together, both Ruby and Rails are easy to generate a simple MVC pattern. I went through basic instructions from stackoverflow, medium, youtube.
 
-Things you may want to cover:
+The installation instructions
 
-* Ruby version
+http://guides.railsgirls.com/install#setup-for-linux
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
